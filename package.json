@@ -1,0 +1,23 @@
+{
+  "name": "notes-app-backend-dicoding",
+  "version": "1.0.0",
+  "description": "Membuat aplikasi back-end sederhana",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server",
+    "lint": "eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "regi al habib",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
